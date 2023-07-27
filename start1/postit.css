@@ -1,0 +1,119 @@
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+  background-color: #f0f0f0;
+  font-family: "Indie Flower", cursive;
+}
+
+.board {
+  position: relative;
+  width: 800px;
+  height: 600px;
+  background-color: lightslategray;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+  overflow: hidden;
+  text-align: center;
+}
+h2 {
+  margin-bottom: 10px;
+  padding-top: 30px;
+}
+p {
+  margin: 0;
+}
+.post-it {
+  width: 100px;
+  height: 100px;
+  background-color: #f8fdcf;
+  display: inline-block;
+  margin: 10px;
+  box-shadow: inset 0px -5px 9px 1px rgba(0, 0, 0, 0.4);
+  transform: rotate(5deg);
+  transition: transform 0.3s ease;
+}
+
+#n1 {
+  transform: rotate(5deg);
+  transition: transform 0.3s ease;
+}
+#n1:hover {
+  transform: scale(1.2) rotate(0);
+}
+#n2 {
+  transform: rotate(-5deg);
+  transition: transform 0.3s ease;
+}
+#n2:hover {
+  transform: scale(1.2) rotate(0);
+}
+#n3 {
+  transform: rotate(1deg);
+  transition: transform 0.3s ease;
+}
+#n3:hover {
+  transform: scale(1.2) rotate(0);
+}
+#n4 {
+  transform: rotate(-8deg);
+  transition: transform 0.3s ease;
+}
+#n4:hover {
+  transform: scale(1.2) rotate(0);
+}
+#n5 {
+  transform: rotate(10deg);
+  transition: transform 0.3s ease;
+}
+#n5:hover {
+  transform: scale(1.2) rotate(0);
+}
+#n6 {
+  transform: rotate(-10deg);
+  transition: transform 0.3s ease;
+}
+#n6:hover {
+  transform: scale(1.2) rotate(0);
+}
+#n7 {
+  transform: rotate(4deg);
+  transition: transform 0.3s ease;
+}
+#n7:hover {
+  transform: scale(1.2) rotate(0);
+}
+#n8 {
+  transform: rotate(-5deg);
+  transition: transform 0.3s ease;
+}
+#n8:hover {
+  transform: scale(1.2) rotate(0);
+}
+.post-it.color:nth-child(1) {
+  background-color: #f8fdcf;
+}
+
+.post-it.color:nth-child(2) {
+  background-color: #cceebc;
+}
+
+.post-it.color:nth-child(3) {
+  background-color: #c9a7eb;
+}
+.post-it.color:nth-child(4) {
+  background-color: #cceebc;
+}
+.post-it.color:nth-child(5) {
+  background-color: #f8fdcf;
+}
+.post-it.color:nth-child(6) {
+  background-color: #c9a7eb;
+}
+.post-it.color:nth-child(7) {
+  background-color: #f8fdcf;
+}
+.post-it.color:nth-child(8) {
+  background-color: #cceebc;
+}
